@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+
+<head>
+
+    <!--PAGE TITLE THAT SHOWS UP ON THE BROWSER'S TAB-->
+    <title>                         
+        Homepage
+    </title>
+
+    <style>                         /*CSS FOR HTML CODE BELOW*/
+        html{                       /*UNNECESSARY, BUT WHITE BACKGROUND FOR THE WHOLE PAGE*/
+            background: rgb(255, 255, 255);
+        }
+
+        h1{                         /*STYLE FOR THE TITLE*/
+            text-align: center;
+            font-size: 42px;
+        }
+
+        .border{                    /*BORDER AROUND ALL CONTENT AND BACKGROUND COLOR FOR DIV CONTAINING THE BORDER*/
+            border: 2px solid rgb(51, 51, 51);
+            border-radius: 3px;
+            padding-left: 3px;
+            padding-right: 3px;
+            background-color: rgb(228, 240, 255);;
+        }
+
+        .positionDIV{               /*STYLE FOR THE DIV CONTAINING THE POSITION AND DATE*/
+            float: left;
+            width: 40%;
+            padding-left: 20px;
+        }
+
+        .locationDIV{               /*STYLE FOR THE LOCATION AND ID OF RESEARCH*/
+            float: right;
+            width: 40%;
+            padding-right: 20px;
+        }
+
+        .positionTitle{             /*STYLE FOR THE TEXT CONTAINING THE RESEARCH POSITION*/
+            color: rgb(168, 0, 168);
+            font-size: 20px;
+            font-style: oblique;
+            float: left;
+            font-weight: bold;
+        }
+
+        .dateStyle{                 /*STYLE FOR THE DATE*/
+            font-size: 14px;
+            font-style: italic;
+            float: left;
+        }
+
+        .location{                  /*STYLE FOR THE RESEARCH LOCATION*/
+            color: rgb(168, 0, 168);
+            font-size: 20px;
+            font-style: oblique;
+            float: right;
+            font-weight: bold;
+        }
+
+        .nsf{                       /*STYLE FOR THE NSF/RESEARCH ID*/
+            font-size: 16px;
+            font-style: italic;
+            float: right;
+        }
+
+        .topic{                     /*STYLE FOR THE RESEARCH TOPIC/TITLE*/
+            font-size: 16px;
+            font-weight: bold;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .list{                      /*STYLE FOR THE BULLETED LIST INCLUDED IN THE CV*/
+            font-size: 16px;
+            padding-right: 40px;
+            padding-left: 40px;
+        }
+
+        hr{                         /*STYLE FOR THE DIVIDER BETWEEN EACH RESEARCH EXPERIENCE*/
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgba(0, 0, 0, 0.438);
+        }
+        ul.border {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(228, 240, 255);
+
+
+}
+li{
+    float:left;
+}
+li a{
+    display:block;
+    color:  rgb(168, 0, 168);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    
+}
+h2{                       /*STYLE FOR THE TITLE*/
+            text-align: center;
+            font-size: 42px;
+        }
+    </style>
+
+</head>
+<ul class="border">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="teaching.html">Teaching</a></li>
+    
+  </ul>
+<body>
+    <div>
+        <h1>
+            Ting Zhang | Ph.d<br>                                                <!--PAGE TITLE-->
+        </h1>
+        <h3 style="text-align: center;">Office: S737 University of Houston Downtown-Houston, TX 77059</h3>
+        <button type="button"
+        <div class="button" onclick="location.href='mailto:zhangtin@uhd.edu';">Send me an E-Mail</div>
+        <button type="button"
+        <div class="button" onclick="location.href='www.uhd.edu';">Visit UHD</div>
+        </button>
+       
+        <h4><a href = "contact number">(713)221-5837</a></h4>
+        <h2 style="text-align: center;">Education</h2>
+        <div class="border">                                                        <!--BORDER START-->
+           <div class="positionDIV">
+                <p>
+                    <span class="positionTitle"> PH.D in Electrical and Computer Engineering </span>  <!--POSITION TITLE-->
+                    <br>
+                    <br>
+                    <span class="dateStyle"> Graduated December 2015 </span>   <!--DATE-->
+                </p>
+            </div>
+
+            <div class="locationDIV">
+               <p>
+                    <span class="location"> University of Alabama </span>           <!--LOCATION-->
+                    <br>
+                    <br>
+                   <span class="nsf"></span>                      <!--RESEARCH ID #-->
+              </p>
+            </div>
+
+            <br>
+            <br>
+            
+            <div>                                                                   <!--TOPIC AND LIST-->
+                <p>
+                    <br>
+                    <br>
+                    <span class="topic">
+                        Dissertation:  iWEAR-Intelligent Wearable Sensor Systems for Disability Rehabilitation
+                    </span>
+                </p>
+
+               
+            </div>
+
+            <hr>
+
+            <div class="positionDIV">
+                <p>
+                    <span class="positionTitle"> M.S in Computer Science </span>            <!--POSITION TITLE-->
+                    <br>
+                    <br>
+                    <span class="dateStyle"> Graduated August 2011 </span>    <!--DATE-->
+                </p>
+            </div>
+    
+            <div class="locationDIV">
+                <p>
+                    <span class="location"> University of Texas at Brownsville </span>              <!--LOCATION-->
+                    <br>
+                    <br>
+                                    <!--RESEARCH ID #-->
+                </p>
+            </div>
+    
+            <br>
+            <br>
+                
+            <div>                                                                      <!--TOPIC AND LIST-->
+                <p>
+                    <br>
+                    <br>
+                    <span class="topic">
+                        Thesis:Using Particle Swarm Optimization for Mining LIGO Data: A Preliminary Study
+                    </span>
+                </p>
+
+                <p>
+                   
+                </p>
+            </div>
+
+            <hr>
+
+            <div class="positionDIV">
+                    <p>
+                        <span class="positionTitle"> B.S in Computer Engineering</span>          <!--POSITION TITLE-->
+                        <br>
+                        <br>
+                        <span class="dateStyle"> Graduated July 2008</span>    <!--DATE-->
+                    </p>
+                </div>
+    
+                <div class="locationDIV">
+                    <p>
+                        <span class="location"> Tianjin University </span>            <!--LOCATION-->
+                        <br>
+                        <br>
+                                            <!--RESEARCH ID #-->
+                    </p>
+                </div>
+    
+                <br>
+                <br>
+                
+                <div>                                                                    <!--TOPIC AND LIST-->
+                    <p>
+                        <br>
+                        <br>
+                        <span class="topic">
+                            Thesis: 3D Computer Graphical Modeling and Simulation of virtual Clouds
+                        </span>
+                       
+                    </p>
+    
+                    <p>
+                        
+                    </p>
+                </div>
+    
+                <hr>
+    
+                
+        </div>  <!--BORDER END-->
+    </div>
+
+</body>
+
+</html>
